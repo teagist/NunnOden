@@ -1,16 +1,20 @@
-body {
+body 
+{
   padding-top: 70px;
 }
 
-.hero {
+.hero 
+{
   height: 100vh;
   background: url('../images/Buildingk.png') center/cover no-repeat;
 }
 
-h2 {
+h2 
+{
   margin-bottom: 20px;
 }
 
-officers{
+officers
+{
 	text-align: center;
 }
