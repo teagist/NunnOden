@@ -12,6 +12,8 @@
 <!-- Font Awesome -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <!-- Custom CSS -->
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -46,22 +48,52 @@
 </header>
 
 <!-- What is Freemasonry Section -->
-<!-- Video Section -->
 <section id="video" class="py-5">
   <div class="container text-center">
     <h2>Why Freemasonry?</h2>
 
-    <div class="ratio ratio-16x9">
+    <div class="ratio ratio-16x9 mb-4">
       <iframe 
         src="https://www.youtube.com/embed/RqNZp2ATR_c"
         title="YouTube video"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
       </iframe>
     </div>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <i class="fas fa-handshake fa-2x mb-3"></i>
+        <h5>Brotherhood</h5>
+        <p>Freemasonry brings together men of good character to build lasting friendships and support one another.</p>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fas fa-book-open fa-2x mb-3"></i>
+        <h5>Tradition</h5>
+        <p>Rooted in centuries of history, Masonry teaches moral lessons through symbolism and ritual.</p>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fas fa-hands-helping fa-2x mb-3"></i>
+        <h5>Charity</h5>
+        <p>Our lodge is committed to serving the community through charitable work and outreach.</p>
+      </div>
+    </div>
   </div>
 </section>
+
+<!-- Divider -->
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+    <img src="images/square_and_compasses.png" 
+         alt="Divider"
+         style="height:40px;" class="mx-3">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+  </div>
+</div>
+-->
 
 <!-- History Section -->
 <section id="history" class="py-5">
@@ -76,32 +108,25 @@
           Nunn-Oden Lodge has faithfully served the brethren of Hartselle
           and surrounding communities for generations.
         </p>
+
+        <p>
+          Chartered in the early 20th century, Nunn-Oden Lodge No. 398 has
+          stood as a pillar of Freemasonry in Hartselle. Through decades of
+          growth, fellowship, and service, the lodge has remained committed
+          to the principles of Brotherly Love, Relief, and Truth.
+        </p>
+        
+        <a href="history.html" class="btn btn-outline-dark mt-3">
+          Read Full History
+        </a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Divider -->
-<div style="display:flex; align-items:center; justify-content:center; margin:40px 0;">
-  <div style="flex:1; height:1px; background:#ccc;"></div>
-  <img src="images/square_and_compasses.png" 
-       alt="Divider"
-       style="height:40px; margin:0 15px;">
-  <div style="flex:1; height:1px; background:#ccc;"></div>
-</div>
-
-<!-- Meetings Section -->
-<section id="meetings" class="bg-light py-3">
-  <div class="container text-center">
-    <h2>Meetings</h2>
-    <p><strong>Stated Communications:</strong></p>
-    <p>1st and 3rd Tuesdays of each month</p>
-    <p>Dinner at 6:00 PM | Lodge at 7:00 PM</p>
-  </div>
-</section>
-
-<!-- Divider -->
-<div class="bg-light py-5">
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
   <div class="d-flex align-items-center justify-content-center">
     <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
     <img src="images/square_and_compasses.png" 
@@ -110,11 +135,140 @@
     <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
   </div>
 </div>
+-->
+
+<!-- Facebook Section -->
+<section id="social" class="py-5" >
+  <div class="container text-center">
+   
+    <h2>Follow Us on Facebook</h2>
+    <p class="mb-4">Stay up to date with lodge news, events, and activities.</p>
+
+    <!-- Facebook Page Plugin -->
+    <div class="d-flex justify-content-center">
+      <div class="fb-page"
+        data-href="https://www.facebook.com/Nunn-OdenMasonicLodge#398HartselleAlabama"
+        data-tabs="timeline"
+        data-width="500"
+        data-height="500"
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+    <img src="images/square_and_compasses.png" 
+         alt="Divider"
+         style="height:40px;" class="mx-3">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+  </div>
+</div>
+-->
+
+<!-- Meetings Section -->
+<section id="meetings" class="py-3" style="background-color:#0d2a4a; color:white;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Text Content (Left, Centered) -->
+      <div class="col-md-6 text-center">
+        <h1 class="mb-4">Meetings</h1>
+        <p><strong>Stated Communications:</strong></p>
+        <p>1st and 3rd Tuesdays of each month</p>
+        <p>Dinner at 6:00 PM | Lodge at 7:00 PM</p>
+
+        <a href="schedule.html" class="btn btn-light mt-3">
+          View Full Schedule
+        </a>
+      </div>
+
+      <!-- Image (Right) -->
+      <div class="col-md-6 text-center mt-4 mt-md-0">
+        <img src="images/psalm133.avif" 
+             class="img-fluid rounded shadow" 
+             alt="Lodge Meeting">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Divider -->
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+    <img src="images/square_and_compasses.png" 
+         alt="Divider"
+         style="height:40px;" class="mx-3">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+  </div>
+</div>
+-->
+<!-- Divider 
+<div style="background-color:#0b2a4a; padding:30px 0;">
+  <div class="d-flex align-items-center justify-content-center">
+    
+    <div style="flex:1; height:1px; background:rgba(255,255,255,0.3);"></div>
+    
+    <img src="images/square_and_compasses.png" 
+         alt="Divider"
+         style="height:40px; margin:0 15px;">
+    
+    <div style="flex:1; height:1px; background:rgba(255,255,255,0.3);"></div>
+  
+  </div>
+</div>
+-->
+
+<section id="join" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Interested in Becoming a Mason?</h2>
+    <p class="mb-4">
+      Freemasonry is open to men of good character who seek personal growth,
+      fellowship, and a deeper sense of purpose.
+    </p>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Ask</h5>
+        <p>Membership begins by asking a Mason about joining.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Apply</h5>
+        <p>Submit a petition and meet members of the lodge.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Join</h5>
+        <p>Begin your journey through the degrees of Masonry.</p>
+      </div>
+    </div>
+
+    <a href="#contact" class="btn btn-dark mt-4">
+      Contact Us to Learn More
+    </a>
+  </div>
+</section>
 
 <!-- Officers Section -->
 <section id="officers" class="py-5">
   <div class="container">
-    <h2 class="text-center">Officers</h2>
+    <h2 class="text-center mb-4">Officers</h2>
+    <p class="text-center mb-5">
+      The officers of Nunn-Oden Lodge are dedicated to the leadership,
+      service, and traditions of Freemasonry.
+    </p>
     <div class="row mt-4">
       <div class="col-md-6 text-center">
         <p><strong>Worshipful Master:</strong> Ira Giddens</p>
@@ -137,13 +291,17 @@
 </section>
 
 <!-- Divider -->
-<div style="display:flex; align-items:center; justify-content:center; margin:40px 0;">
-  <div style="flex:1; height:1px; background:#ccc;"></div>
-  <img src="images/square_and_compasses.png" 
-       alt="Divider"
-       style="height:40px; margin:0 15px;">
-  <div style="flex:1; height:1px; background:#ccc;"></div>
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
+  <div class="d-flex align-items-center justify-content-center">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+    <img src="images/square_and_compasses.png" 
+         alt="Divider"
+         style="height:40px;" class="mx-3">
+    <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
+  </div>
 </div>
+-->
 
 <!-- Dues Section -->
 <section id="dues" class="bg-light py-3">
@@ -158,7 +316,8 @@
 </section>
 
 <!-- Divider -->
-<div class="bg-light py-5">
+<div class="divider-line"></div>
+<!--<div class="bg-light py-5">
   <div class="d-flex align-items-center justify-content-center">
     <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
     <img src="images/square_and_compasses.png" 
@@ -167,6 +326,7 @@
     <div class="flex-grow-1" style="height:1px; background:#ccc;"></div>
   </div>
 </div>
+-->
 
 <!-- Contact Section -->
 <section id="contact" class="bg-dark text-white py-5">
@@ -179,8 +339,19 @@
   </div>
 </section>
 
+<!--
 <footer class="bg-black text-center text-white py-3">
   <p>&copy; 2026 Nunn-Oden Lodge No. 398</p>
+</footer>
+-->
+
+<footer class="bg-black text-center text-white py-4">
+  <p>&copy; 2026 Nunn-Oden Lodge No. 398</p>
+  <p>
+    <a href="#history" class="text-white mx-2">History</a> |
+    <a href="#meetings" class="text-white mx-2">Meetings</a> |
+    <a href="#contact" class="text-white mx-2">Contact</a>
+  </p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
