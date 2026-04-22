@@ -128,10 +128,7 @@ h2::after {
 }
 
 /* Add #8 Here. */
-.divider-line {
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--secondary), transparent);
-}
+
 
 #officers .col-md-6 {
   background: #ffffff;
@@ -147,4 +144,103 @@ footer {
 
 footer a:hover {
   color: var(--secondary);
+}
+
+
+/* New Stuff */
+
+/* Navbar base */
+.navbar-custom {
+  background-color: #0d2a4a; /* your primary blue */
+  transition: all 0.3s ease;
+}
+
+/* Brand */
+.navbar-custom .navbar-brand {
+  color: #c8a96a; /* gold accent */
+  font-weight: 600;
+}
+
+/* Nav links */
+.navbar-custom .nav-link {
+  color: #e0e6ed;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar-custom .nav-link:hover {
+  color: #c8a96a;
+}
+
+/* Active link */
+.navbar-custom .nav-link.active {
+  color: #ffffff;
+  border-bottom: 2px solid #c8a96a;
+}
+
+/* Mobile toggle icon fix */
+.navbar-custom .navbar-toggler {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.navbar-custom .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-custom.scrolled {
+  background-color: #0b1f36;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+section {
+  padding-top: 60px;
+}
+
+.history-hero {
+  margin-top: -70px; /* match navbar height */
+  padding-top: 70px; /* keeps text positioned correctly */
+}
+
+/*
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37; 
+}
+*/
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(212,175,55,0.3);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
 }
