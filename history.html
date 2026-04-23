@@ -70,12 +70,38 @@
 
 /* ===== Timeline ===== */
 .timeline {
+  position: relative;
+  margin-left: 80px; /* space for the years */
   border-left: 3px solid var(--accent-color);
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .timeline-item {
-  margin-bottom: 30px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* The dot on the line */
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -38px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+/* The YEAR on the left */
+.timeline-year {
+  position: absolute;
+  left: -125px;
+  top: 0;
+  width: 80px;
+  text-align: right;
+  font-weight: bold;
+  color: var(--accent-color);
 }
 
 .timeline-item h5 {
@@ -170,14 +196,17 @@ section {
     <div class="timeline">
 
       <div class="timeline-item">
+	  	<div class="timeline-year">1875</div>
         <h5>Chartering of the Lodge</h5>
         <p>
-          Nunn-Oden Lodge No. 398 was officially chartered, marking the beginning
-          of a long tradition of Masonic work in the Hartselle community.
+          Hartselle Lodge No. 398, Under Dispensation, was approved to receive
+		  a Charter, marking the beginning of a long tradition of Masonry in
+		  the Hartselle community.
         </p>
       </div>
 
       <div class="timeline-item">
+	    <div class="timeline-year">1876-1910</div>
         <h5>Early Growth and Community Presence</h5>
         <p>
           In its early years, the lodge quickly became a central part of the
@@ -186,6 +215,7 @@ section {
       </div>
 
       <div class="timeline-item">
+	    <div class="timeline-year">1914</div>
         <h5>Construction of the Lodge Building</h5>
         <p>
           The lodge established its physical home, creating a lasting space for
@@ -194,14 +224,18 @@ section {
       </div>
 
       <div class="timeline-item">
-        <h5>Decades of Service</h5>
+	    <div class="timeline-year">1971</div>
+        <h5>Renaming to Honor Distinguished Service</h5>
         <p>
-          Through wars, economic challenges, and changing times, the lodge
-          continued its work, supporting its members and the broader community.
+          Brother James Eidson, Sr., presented a proposal to the Grand Lodge
+		  of Alabama to change the Lodge name to Nunn-Oden Lodge, No. 398 to
+		  honor the legacy of the Honorable Brother Troy L. Nunn PGM, and 
+		  longstanding Secretary, Brother E. A. Oden.  
         </p>
       </div>
 
       <div class="timeline-item">
+	    <div class="timeline-year">2026</div>
         <h5>Modern Day</h5>
         <p>
           Today, Nunn-Oden Lodge remains active and vibrant, continuing its
