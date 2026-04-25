@@ -244,3 +244,34 @@ h2 {
   margin-bottom: 20px;
   font-weight: 600;
 }
+
+#past-masters {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+/* Makes all blocks equal height within a row */
+.decades-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.decade-block {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+/* Clean header styling */
+.decade-block h4 {
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Subtle polish */
+.list-group-item {
+  font-size: 0.95rem;
+}
