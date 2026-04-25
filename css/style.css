@@ -22,7 +22,9 @@ h1, h2, h3, h4
   background: url('../images/Buildingk.png') center/cover no-repeat;
 }*/
 .hero {
-  height: 100vh;
+  height: 70vh;
+  margin-top: -70px;
+  padding-top: 70px;
   background: 
     linear-gradient(rgba(13,42,74,0.7), rgba(13,42,74,0.7)),
     url('../images/Buildingk.png') center/cover no-repeat;
@@ -62,7 +64,7 @@ officers
 
 section {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom:60px;
 }
 
 .btn {
@@ -82,9 +84,11 @@ h2 {
   background-color: var(--light-bg);
 }
 
+/*
 #join {
   background: linear-gradient(135deg, #f8f9fa, #e9ecef);
 }
+*/
 
 #join h2 {
   color: var(--primary);
@@ -163,7 +167,7 @@ footer a:hover {
 
 /* Nav links */
 .navbar-custom .nav-link {
-  color: #e0e6ed;
+  color: #c8a96a;
   transition: 0.3s;
 }
 
@@ -201,30 +205,6 @@ section {
   padding-top: 70px; /* keeps text positioned correctly */
 }
 
-/*
-.navbar-brand {
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.navbar-nav .nav-link {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-}
-
-.navbar-nav .nav-link {
-  transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #d4af37; 
-}
-*/
-
 .navbar-brand,
 .navbar-nav .nav-link {
   font-family: 'Playfair Display', serif;
@@ -246,9 +226,9 @@ h2 {
 }
 
 #past-masters {
-  background-color: #f8f9fa;
+  /*background-color: #f8f9fa;*/
   padding: 40px 20px;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
 }
 
 /* Makes all blocks equal height within a row */
