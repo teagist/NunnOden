@@ -21,39 +21,15 @@
 <link rel="stylesheet" href="css/style.css">
 
 <style>
-/* Page-specific styling */
-/*.history-hero {
-  height: 50vh;
-  background: linear-gradient(rgba(13,42,74,0.7), rgba(13,42,74,0.7)),
-              url('images/history.jpeg') center/cover no-repeat;
-  color: white;
-}
-
-.history-section {
-  max-width: 900px;
-  margin: auto;
-}
-
-.timeline {
-  border-left: 3px solid #c8a96a;
-  padding-left: 20px;
-}
-
-.timeline-item {
-  margin-bottom: 30px;
-}
-
-.timeline-item h5 {
-  color: #0d2a4a;
-}*/
-
 /* ===== Accent Color Override (ONLY for this page) ===== */
-:root {
+:root 
+{
     --accent-color: #c8a96a;
 }
 
 /* ===== Hero Section ===== */
-.history-hero {
+.history-hero 
+{
   margin-top: -70px;
   padding-top: 70px;
   height: 50vh;
@@ -63,26 +39,30 @@
 }
 
 /* ===== Content Width ===== */
-.history-section {
+.history-section 
+{
   max-width: 900px;
   margin: auto;
 }
 
 /* ===== Timeline ===== */
-.timeline {
+.timeline 
+{
   position: relative;
   margin-left: 80px; /* space for the years */
   border-left: 3px solid var(--accent-color);
   padding-left: 30px;
 }
 
-.timeline-item {
+.timeline-item 
+{
   position: relative;
   margin-bottom: 40px;
 }
 
 /* The dot on the line */
-.timeline-item::before {
+.timeline-item::before 
+{
   content: "";
   position: absolute;
   left: -38px;
@@ -94,7 +74,8 @@
 }
 
 /* The YEAR on the left */
-.timeline-year {
+.timeline-year
+{
   position: absolute;
   left: -125px;
   top: 0;
@@ -104,58 +85,68 @@
   color: var(--accent-color);
 }
 
-.timeline-item h5 {
+.timeline-item h5 
+{
   color: #0d2a4a;
 }
 
 /* ===== Buttons ===== */
-.btn-dark {
+.btn-dark 
+{
   background-color: #0d2a4a;
   border: none;
 }
 
-.btn-dark:hover {
+.btn-dark:hover 
+{
   background-color: var(--accent-color);
 }
 
 /* ===== Navbar Styling (override just for this page) ===== */
-.navbar-custom {
+.navbar-custom 
+{
   background-color: #0d2a4a;
 }
 
-.navbar-custom .navbar-brand {
+.navbar-custom .navbar-brand 
+{
   color: white;
 }
 
-.navbar-custom .nav-link {
+.navbar-custom .nav-link 
+{
   color: #e0e6ed;
 }
 
-.navbar-custom .nav-link:hover {
+.navbar-custom .nav-link:hover 
+{
   color: var(--accent-color);
 }
 
 /* ===== Links ===== */
-a {
+a 
+{
   transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover 
+{
   color: var(--accent-color);
 }
 
 /* ===== Section spacing fix ===== */
-section {
+section 
+{
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 /* ===== Anchor scroll fix ===== */
-section {
+section 
+{
   scroll-margin-top: 80px;
 }
 </style>
-
 </head>
 
 <body>
@@ -163,8 +154,8 @@ section {
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom">  
     <div class="container">
-    <a class="navbar-brand" href="index.html">Nunn-Oden Lodge No. 398</a>
-  </div>
+        <a class="navbar-brand" href="index.html">Nunn-Oden Lodge No. 398</a>
+    </div>
 </nav>
 
 <!-- Hero -->
