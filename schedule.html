@@ -19,174 +19,173 @@
 
 <link rel="stylesheet" href="css/style.css">
 
-<style>
-:root {
-  --primary: #0d2a4a;
-  --light-bg: #f8f9fa;
-}
+    <style>
+        :root 
+        {
+            --primary: #0d2a4a;
+            --light-bg: #c8a96a;
+        }
 
-.schedule-hero {
-  background: linear-gradient(rgba(13,42,74,0.8), rgba(13,42,74,0.8)),
-              url('images/schedule.jpg') center/cover no-repeat;
-  color: white;
-  padding: 150px 0;
-  text-align: center;
-}
+        .schedule-hero 
+        {
+            margin-top: -70px;
+            padding-top: 150px;
+            height: 50vh;
+            background: linear-gradient(rgba(13,42,74,0.7), rgba(13,42,74,0.7)),
+                        url('images/schedule.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+        }
 
-.event-card {
-  border: none;
-  border-radius: 12px;
-  transition: transform 0.2s ease;
-}
+        .event-card 
+        {
+            border: none;
+            border-radius: 12px;
+            transition: transform 0.2s ease;
+        }
 
-.event-card:hover {
-  transform: translateY(-3px);
-}
+        .event-card:hover 
+        {
+            transform: translateY(-3px);
+        }
 
-.badge-custom {
-  background-color: var(--primary);
-}
-</style>
-
+        .badge-custom 
+        {
+            background-color: var(--primary);
+        }
+    </style>
 </head>
 
 <body>
-
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#0d2a4a;">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">Nunn-Oden Lodge No. 398</a>
-  </div>
+<nav class="navbar navbar-expand-lg fixed-top navbar-custom">  
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Nunn-Oden Lodge No. 398</a>
+    </div>
 </nav>
 
 <!-- Hero -->
 <header class="schedule-hero">
-  <div class="container">
-    <h1 class="display-5">Lodge Schedule</h1>
-    <p class="lead">Meetings, events, and important dates</p>
-  </div>
+    <div class="container">
+        <h1 class="display-5">Lodge Schedule</h1>
+        <p class="lead">Meetings, events, and important dates</p>
+    </div>
 </header>
 
 <!-- Content -->
 <section class="py-5">
-  <div class="container">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>Upcoming Events</h2>
+            <p class="text-muted">All times are local to Hartselle, Alabama</p>
+        </div>
 
-    <div class="text-center mb-5">
-      <h2>Upcoming Events</h2>
-      <p class="text-muted">All times are local to Hartselle, Alabama</p>
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Stated Meeting</span>
+                    <h5>First Tuesday of May Meeting</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 7th, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
+                    <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Special Event</span>
+                    <h5>Hartselle Historic Downtown Walking Tours</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 11th, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> 10 A.M. - 11 A.M.</p>
+                    <p class="text-muted">Community event to promote our Lodge's presence
+                        in Downtown Hartselle for more than 100 years.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Stated Meeting</span>
+                    <h5>Third Tuesday of May Meeting</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 21st, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
+                    <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Special Event</span>
+                    <h5>Hartselle Historic Downtown Walking Tours</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 25th, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> 10 A.M. - 11 A.M.</p>
+                    <p class="text-muted">Community event to promote our Lodge's presence
+                        in Downtown Hartselle for more than 100 years.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Stated Meeting</span>
+                    <h5>First Tuesday of May Meeting</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> May 5th, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
+                    <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Stated Meeting</span>
+                    <h5>Third Tuesday of May Meeting</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> May 19th, 2026</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
+                    <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Special Event</span>
+                    <h5>Degree Work / Practice</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> As Announced</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> 6:00 PM</p>
+                    <p class="text-muted">Instruction and ritual practice for officers and members.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card event-card shadow-sm p-3">
+                <div class="card-body">
+                    <span class="badge badge-custom mb-2">Community</span>
+                    <h5>Lodge Social / Fellowship</h5>
+                    <p class="mb-1"><i class="fa-regular fa-calendar"></i> Quarterly</p>
+                    <p class="mb-1"><i class="fa-regular fa-clock"></i> Varies</p>
+                    <p class="text-muted">Family and fellowship events for members and guests.</p>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="col-md-6">
-      <div class="card event-card shadow-sm p-3">
-        <div class="card-body">
-          <span class="badge badge-custom mb-2">Stated Meeting</span>
-          <h5>First Tuesday of May Meeting</h5>
-          <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 7th, 2026</p>
-          <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
-          <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card event-card shadow-sm p-3">
-        <div class="card-body">
-          <span class="badge badge-custom mb-2">Special Event</span>
-          <h5>Hartselle Historic Downtown Walking Tours</h5>
-          <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 11th, 2026</p>
-          <p class="mb-1"><i class="fa-regular fa-clock"></i> 10 A.M. - 11 A.M.</p>
-          <p class="text-muted">Community event to promote our Lodge's presence
-            in Downtown Hartselle for more than 100 years.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card event-card shadow-sm p-3">
-        <div class="card-body">
-          <span class="badge badge-custom mb-2">Stated Meeting</span>
-          <h5>Third Tuesday of May Meeting</h5>
-          <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 21st, 2026</p>
-          <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
-          <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="card event-card shadow-sm p-3">
-        <div class="card-body">
-          <span class="badge badge-custom mb-2">Special Event</span>
-          <h5>Hartselle Historic Downtown Walking Tours</h5>
-          <p class="mb-1"><i class="fa-regular fa-calendar"></i> April 25th, 2026</p>
-          <p class="mb-1"><i class="fa-regular fa-clock"></i> 10 A.M. - 11 A.M.</p>
-          <p class="text-muted">Community event to promote our Lodge's presence
-            in Downtown Hartselle for more than 100 years.
-          </p>
-        </div>
-      </div>
-    </div>
-
-      <!-- Event 1 -->
-      <div class="col-md-6">
-        <div class="card event-card shadow-sm p-3">
-          <div class="card-body">
-            <span class="badge badge-custom mb-2">Stated Meeting</span>
-            <h5>First Tuesday of May Meeting</h5>
-            <p class="mb-1"><i class="fa-regular fa-calendar"></i> May 5th, 2026</p>
-            <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
-            <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Event 2 -->
-      <div class="col-md-6">
-        <div class="card event-card shadow-sm p-3">
-          <div class="card-body">
-            <span class="badge badge-custom mb-2">Stated Meeting</span>
-            <h5>Third Tuesday of May Meeting</h5>
-            <p class="mb-1"><i class="fa-regular fa-calendar"></i> May 19th, 2026</p>
-            <p class="mb-1"><i class="fa-regular fa-clock"></i> Dinner 6:00 PM | Lodge 7:00 PM</p>
-            <p class="text-muted">Regular business meeting of Nunn-Oden Lodge.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Event 3 -->
-      <div class="col-md-6">
-        <div class="card event-card shadow-sm p-3">
-          <div class="card-body">
-            <span class="badge badge-custom mb-2">Special Event</span>
-            <h5>Degree Work / Practice</h5>
-            <p class="mb-1"><i class="fa-regular fa-calendar"></i> As Announced</p>
-            <p class="mb-1"><i class="fa-regular fa-clock"></i> 6:00 PM</p>
-            <p class="text-muted">Instruction and ritual practice for officers and members.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Event 4 -->
-      <div class="col-md-6">
-        <div class="card event-card shadow-sm p-3">
-          <div class="card-body">
-            <span class="badge badge-custom mb-2">Community</span>
-            <h5>Lodge Social / Fellowship</h5>
-            <p class="mb-1"><i class="fa-regular fa-calendar"></i> Quarterly</p>
-            <p class="mb-1"><i class="fa-regular fa-clock"></i> Varies</p>
-            <p class="text-muted">Family and fellowship events for members and guests.</p>
-          </div>
-        </div>
-      </div>
-
-  </div>
 </section>
 
 <!-- Footer -->
 <footer class="text-white text-center py-4" style="background-color:#0b1f36;">
-  <p class="mb-1">&copy; 2026 Nunn-Oden Lodge No. 398</p>
-  <a href="index.html" class="text-white">Return Home</a>
+    <p class="mb-1">&copy; 2026 Nunn-Oden Lodge No. 398</p>
+    <a href="index.html" class="text-white">Return Home</a>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
